@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+body {
+  background: #f9f7f5;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 24px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 24px;
+}
+
+img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.profile {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.info h1 {
+  font-size: 48px;
+  line-height: 90%;
+  font-weight: 300;
+}
+
+.info h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.info p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.cta-b {
+  margin: 40px 0;
+}
+
+.cta-b a {
+  font-size: 14px;
+  font-weight: bold;
+  background: #3e3e3e;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contato {
+  padding: 20px 52px;
+}
+
+.cv {
+  padding: 20px 33px;
+}
+
+.colection-info {
+  margin-top: 30px;
+}
+
+.colection-info h1 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.common-text {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 15px 0px;
+}
+
+.main-photo {
+  width: 100%;
+}
+
+footer {
+  background: #0c0c0c;
+  height: 250px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+footer a,
+h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h3 {
+  margin: 25px 0px;
+}
+
+footer li {
+  padding: 5px 0;
+}
+
+@media (min-width: 760px) {
+  header h1 {
+    font-size: 20px;
+    margin-left: 5rem;
+  }
+
+  section {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .profile {
+    width: 50%;
+  }
+
+  .info h1 {
+    font-size: 52px;
+  }
+
+  .info h2 {
+    font-size: 26px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .cta-b a {
+    font-size: 18px;
+  }
+
+  .collection-section {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colection-info h1 {
+    font-size: 32px;
+  }
+
+  .common-text {
+    font-size: 18px;
+  }
+
+  .colection-content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .main-photo {
+    width: 50%;
+  }
+
+  footer a,
+  h3 {
+    font-size: 18px;
+  }
+
+  .footer-box {
+    flex-direction: row;
+  }
+
+  .icons {
+    padding-left: 10rem;
+  }
+
+  footer li {
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  section {
+    margin: 0 5rem;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  section {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .profile {
+    width: 40%;
+  }
+
+  .info h1 {
+    font-size: 64px;
+  }
+
+  .info h2 {
+    font-size: 48px;
+  }
+
+  .info p {
+    font-size: 26px;
+  }
+
+  .cta-b a {
+    font-size: 26px;
+  }
+
+  .contato {
+    padding: 20px 85px;
+  }
+
+  .cv {
+    padding: 20px 66px;
+  }
+
+  .collection-section {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .colection-info h1 {
+    font-size: 48px;
+  }
+
+  .common-text {
+    font-size: 26px;
+  }
+
+  .main-photo {
+    width: 40%;
+  }
+
+  footer {
+    height: 25rem;
+  }
+
+  footer h3 {
+    margin: 3rem 0px;
+  }
+
+  footer a,
+  h3 {
+    font-size: 26px;
+  }
+
+  .icons {
+    padding-left: 20rem;
+  }
+
+  .icon {
+    width: 50px;
+  }
+
+  footer li {
+    padding: 20px 0;
+  }
+}
